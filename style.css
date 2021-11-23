@@ -401,6 +401,59 @@ ul li{
 
 }
 
+/* counter */
+.counters{
+    background-color: #f4fff0;
+    color: #000;
+
+}
+
+.counters .container{
+    margin: 50px;
+    padding: 30px;
+}
+
+.single-counter{
+
+    margin: 50px;
+    padding: 30px;
+
+
+}
+
+.counters .counter{
+
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+
+ .featured-slider .box{
+
+    width: 25rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    border: var(--border);
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* footer */
+
+.footer-custom{
+    background-color: #1c1d3f;
+}
+
+
+.copy-custom {
+    background-color: #181938;
+}
 
 
 
