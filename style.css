@@ -1,3 +1,8 @@
+
+body{
+    list-style: none;
+}
+
 .banner-image{
 
     background-image: url('bg-1.jpg');
@@ -177,5 +182,233 @@
     
 
 }
+
+/*ecom*/
+
+.ecom-btn{
+
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    border: #fff;
+    padding: 10px;
+    margin: 10px;
+   background-color: #f15a24;
+   color: #fff;
+   font-weight: 500;
+}
+
+.econlist{
+    list-style: none;
+   
+}
+
+
+ ul{
+    padding-left: 0;
+}
+
+
+ul li{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #909193;
+
+
+   
+}
+
+.econlist p{
+    color: #aaabad;
+
+}
+
+
+
+.econlist i{
+    color:#85bc3f ;
+
+    margin-right: 5px;
+
+}
+
+.landing{
+    background-color: #f5fcff;
+}
+
+/*msfc*/
+
+.msfc{
+
+    list-style: none;
+}
+
+
+/* business*/
+
+.space{
+
+    width: 300px
+}
+
+.business{
+    padding-top: 40px;
+    padding-left: 350px;
+    padding-right: 350px;
+
+}
+
+.icon-custom i {
+
+    color: #2682ec;
+
+}
+
+/* business feature*/
+
+.business-f{
+    padding-top: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-weight: 800;
+
+}
+
+.custom-card{
+    height: 250px;
+    box-shadow: none;
+    border: 3px solid #e9ecee;
+}
+
+#card-img1 {
+
+    background: #f5fcff;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+#card-img2 {
+
+    background: #e8eefd;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+#card-img3 {
+
+    background: #f1ebfd;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+#card-img4 {
+
+    background: #fce6f1;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+#card-img5{
+
+    background: #EFF7E3;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+#card-img6{
+
+    background: #EFF7E3;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+#card-img7{
+
+    background: #eeeff1;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+#card-img8{
+
+    background: #f5fcff;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+#card-img9{
+
+    background: #f5fcff;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+#card-img10{
+
+    background: #f5fcff;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
