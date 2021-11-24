@@ -5,7 +5,7 @@ body{
 
 .banner-image{
 
-    background-image: url('bg-1.jpg');
+    background-image: url('img/bg-2.jpg');
     background-size: cover;
 
 }
@@ -427,6 +427,50 @@ ul li{
     margin: 10px 0;
 }
 
+/* portfolio */
+
+.featured .featured-slider .box {
+    width: 25rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    border: var(--border);
+    text-align: center;
+  }
+
+  .featured .featured-slider .box .image {
+    padding: 1rem;
+    background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+  }
+  
+  .featured .featured-slider .box .image img {
+   height: 400px;
+   width: 400px;
+  }
+
+  .swiper-button-next,
+.swiper-button-prev {
+  border: var(--border-hover);
+  height: 4rem;
+  color: #27ae60 !important;
+  background: #fff;
+  border: none;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: var(--black);
+  color: #fff !important;
+}
+
+
+
+
 
 /* portfolio */
 
@@ -453,7 +497,22 @@ ul li{
     transition: ease-in-out 5s;
 }
 
+.portfolio-box-slider{
+
+    height: 300px;
+    
+    background-color: #1b1b1b;
+    background-size: cover;
+    background-position: top;
+    transition: ease-in-out 5s;
+
+}
+
 .portfolio-box:hover{
+    background-position: bottom;
+}
+
+.portfolio-box-slider:hover{
     background-position: bottom;
 }
 
@@ -469,6 +528,60 @@ ul li{
     background-image: url(img/portfolio/bike-theory.jpg);
 }
 
+
+/* client */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    width: 100%;
+
+    margin-bottom: 60px;
+  }
+  .carousel{
+    max-width: 1200px;
+    
+   ;
+  }
+  
+  
+  
+  .carousel img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    
+    
+  }
+  .carousel .card{
+    width: auto;
+    height: auto;
+    border: none;
+    background-size: cover;
+    margin: 10px;
+    
+   
+  }
+
+  
+  
+
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #d3d4d4!important;
+  }
+  
 
 
 
