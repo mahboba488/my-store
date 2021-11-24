@@ -428,15 +428,45 @@ ul li{
 }
 
 
- .featured-slider .box{
+/* portfolio */
 
-    width: 25rem;
-    margin: 2rem 0;
-    position: relative;
-    overflow: hidden;
-    border: var(--border);
-    text-align: center;
+.container1{
+    width: 1000px;
+    margin: 100px auto;
+}
 
+.portfolio{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.portfolio-box{
+    height: 300px;
+    width: 32%;
+    background-color: #1b1b1b;
+    background-size: cover;
+    background-position: top;
+    transition: ease-in-out 5s;
+}
+
+.portfolio-box:hover{
+    background-position: bottom;
+}
+
+.portfolio-box1{
+    background-image: url(img/portfolio/moshi-moshi.jpg);
+}
+
+.portfolio-box2{
+    background-image: url(img/portfolio/globalautomotive.jpg);
+}
+
+.portfolio-box3{
+    background-image: url(img/portfolio/bike-theory.jpg);
 }
 
 
